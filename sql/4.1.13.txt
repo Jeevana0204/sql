@@ -1,0 +1,8 @@
+create table supp_table
+(
+suppid number(5),
+sname varchar2(30) NOT NULL,
+addr1 varchar2(30),
+addr2 varchar2(30),
+contactno number(10)
+);

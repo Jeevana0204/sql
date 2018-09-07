@@ -1,0 +1,7 @@
+alter table customer(
+add phoneno number(10),
+add age number(3),
+add gender varchar2(1));
+desc customer;
+alter table customer
+rename to cust_table;

@@ -1,0 +1,1 @@
+select staff_code,staff_name from staf_master where mgr_code is NULL;

@@ -1,0 +1,2 @@
+SELECT staff_name,round(months_between(to_date(sysdate,'dd-MM-yyyy'),to_date(hiredate,'dd-MM-yyyy'))) as months_worked FROM staf_master
+order by 'months_worked' ;

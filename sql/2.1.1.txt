@@ -1,0 +1,1 @@
+select staff_name,lpad(staff_sal,15,'$') from staf_master;

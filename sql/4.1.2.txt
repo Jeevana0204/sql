@@ -1,0 +1,4 @@
+alter table customer
+modify  custname varchar2(30)  NOT NULL;
+alter table customer
+rename column custname to customername ;

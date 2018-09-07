@@ -1,0 +1,11 @@
+drop table supp_table;
+create table CustomerMaster
+(
+CustomerId number(5) CONSTRAINT CustId_PK PRIMARY KEY,
+CustomerName VARCHAR2(10) NOT NULL,
+Addressl	Varchar2(10) Not Null,
+Address2	Varchar2(10),
+Gender	Varchar2(l),
+Age	Number(3),
+PhoneNo	Number(10)
+);

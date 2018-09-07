@@ -1,0 +1,1 @@
+select staff_name as name,design_code as designation from staf_master where (hiredate < '01-jan-2003' and (staff_sal between 12000 and 25000))

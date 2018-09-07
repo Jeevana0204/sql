@@ -1,0 +1,2 @@
+alter table cust_table
+modify custid CONSTRAINT custid_prim PRIMARY KEY;

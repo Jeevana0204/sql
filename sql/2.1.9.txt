@@ -1,0 +1,5 @@
+ SELECT student_name,
+DECODE(dept_code, 20, 'Electronics',
+                    30, 'Electricals',
+                   'others') result
+FROM stud_master;
